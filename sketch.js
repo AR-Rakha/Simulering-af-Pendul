@@ -1,4 +1,4 @@
-let dt=0.01;
+let dt=0.005;
 
 let p_length=150;
 let g=10000;
@@ -43,7 +43,7 @@ function draw()
 	fill("Black")
 	text("Start mekanisk energi: "+start_total_e,10,10)
 	text("Frame: "+frameCount,10,60);
-  
+
 	fill("blue")
 	text("Mekanisk energi: " + p_Euler.calc_E(),10,20)
 	text("Kinetisk energi: " + p_Euler.calc_KE(),10,30)
