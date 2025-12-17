@@ -63,8 +63,8 @@ class data{
       "m["+m+"]","l["+p_length+"]",
       "delta time["+dt+"]","frame["+p_data.frame_t+"]",
       "time["+p_data.time_t+"]","A_euler["+p_data.A_euler_t+"]",
-      "A_vel_euler["+p_data.A_vel_euler_t+"]","A_euler["+p_data.A_RK4_t+"]",
-      "A_vel_euler["+p_data.A_vel_RK4_t+"]"
+      "A_vel_euler["+p_data.A_vel_euler_t+"]","A_RK4["+p_data.A_RK4_t+"]",
+      "A_vel_RK4["+p_data.A_vel_RK4_t+"]"
     ]
 
     //Downloader datalisten i en fil med navnet data.txt
